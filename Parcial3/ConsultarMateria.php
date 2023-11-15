@@ -13,7 +13,7 @@
   include 'conexion.php';
   
   $sql = "SELECT * FROM materias";
-  $datos = $conexion->jquery($sql)
+  $datos = $conexion->query($sql)
 
   ?>
 

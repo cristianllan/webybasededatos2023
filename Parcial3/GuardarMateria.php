@@ -15,7 +15,7 @@
     exit;
    } else {
     echo "<h2>Ocurrio un error</h2> <p>Error: " .$sql .$conexion->error . "</p>";
-    echo "<h3><a href='ConsultarMaterias.php'>Regresar a materias</a></h3>";
+    echo "<h3><a href='ConsultarMateria.php'>Regresar a materias</a></h3>";
 
    }
 
